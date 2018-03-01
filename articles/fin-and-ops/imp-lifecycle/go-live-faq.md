@@ -59,12 +59,6 @@ The **Production** button in LCS is available only after you've completed the **
 > [!NOTE]
 > Your production environment won't be deployed until the Go-live assessment/review has been completed.
 
-## My sandbox environment is currently on a platform update that is set to expire in two months. Can I request a production environment that has the latest platform update?
-
-No. We will deny any request for a production environment that is on a different version than your sandbox environment. When you configure a production environment, the application and platform versions that you select must match the application and platform versions of the sandbox environment where you signed off on your solution. Therefore, you must first apply the latest platform update to your sandbox environment, test it, and sign off.
-
-For more information, see [Versions Update Policy](../../dev-itpro/migration-upgrade/versions-update-policy.md).
-
 ## Our sandbox environments are deployed in the Central US datacenter, but we want our production environments to be deployed in the West US datacenter. Can I select West US as the datacenter in my production configuration?
 
 No. We will deny any request for a production environment that is in a different datacenter than your sandbox environment. We require that all your environments reside in the same datacenter. If you want your production environment to reside in the West US datacenter, you must first redeploy your sandbox environments to the West US datacenter, test them, and sign off.
